@@ -1,0 +1,28 @@
+.lear{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+            transition: all 0.9s;
+}
+.w-100{
+    width: 100%;
+    overflow: hidden;
+}
+.w-40s{
+    width: 40%;
+    overflow: hidden;
+}
+
+.port:hover .lear{
+        background-color: #1abc9cc0;
+
+        color: white;
+}

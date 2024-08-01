@@ -1,0 +1,47 @@
+nav {
+    background-color:#2C3E50;
+    position: sticky;
+    top: 0;
+    z-index: 49;
+
+    @apply flex lg:justify-between flex-col lg:flex-row
+}
+.noScrole{
+
+    transition: all 0.4s;
+    @apply lg:h-24
+}
+.scrole{
+    transition: all 0.4s;
+    @apply md:h-20
+}
+nav ul {
+    @apply lg:flex
+}
+
+nav ul li {
+    @apply m-5
+}
+
+.active {
+
+    color: white;
+    background-color: #1ABC9C;
+}
+
+nav .menu {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
